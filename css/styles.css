@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* =================================
+  Base Layout Styles
+==================================== */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* ---- Header ---- */
+
+.nav {
+  background: #A03768;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.name,
+.journal {
+	font-size: 1.3em;
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.name {
+	float: left;
+}
+.journal,
+.avatar {
+  float: right;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top:10px;
+  border: 3px solid #fff;
+}
+
+.journal {
+  margin-right: 120px;
+}
+
+/* ---- content ---- */
+.fixed-header-fix {
+  padding-top: 60px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.col-50 {
+
+}
